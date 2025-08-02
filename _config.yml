@@ -1,0 +1,39 @@
+# Configuración del sitio web
+title: "SecBlog"
+description: "Blog de investigación en ciberseguridad - Análisis de vulnerabilidades, informes técnicos y investigación de seguridad"
+author: "Security Research Team"
+url: "https://your-username.github.io"
+baseurl: "/sec-blog"
+
+# Configuración de Jekyll
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configuración de posts
+permalink: /:year/:month/:day/:title/
+paginate: 10
+paginate_path: "/page:num/"
+
+# Configuración de construcción
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+# Configuración de colecciones
+collections:
+  advisories:
+    output: true
+    permalink: /advisories/:name/
+
+# Configuración social (opcional)
+github_username: your-username
+twitter_username: your-twitter
+
+# Configuración de tema
+remote_theme: pages-themes/minimal@v0.2.0 

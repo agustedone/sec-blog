@@ -1,0 +1,388 @@
+/* Reset y configuración base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.site-header {
+    background-color: #fff;
+    border-bottom: 1px solid #e1e4e8;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.site-title a {
+    color: #d73a49;
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    color: #b31d28;
+}
+
+.main-nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-nav a {
+    color: #586069;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+    color: #24292e;
+}
+
+/* Main content */
+.site-main {
+    min-height: calc(100vh - 140px);
+    padding: 40px 0;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 1.5rem 0 1rem 0;
+    color: #24292e;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+
+p {
+    margin: 1rem 0;
+    color: #586069;
+}
+
+a {
+    color: #0366d6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Posts list */
+.posts-list {
+    margin: 2rem 0;
+}
+
+.post-preview {
+    border-bottom: 1px solid #e1e4e8;
+    padding: 2rem 0;
+}
+
+.post-preview:last-child {
+    border-bottom: none;
+}
+
+.post-preview h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.post-preview h3 a {
+    color: #24292e;
+    text-decoration: none;
+}
+
+.post-preview h3 a:hover {
+    color: #d73a49;
+}
+
+.post-meta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 0.5rem 0;
+    font-size: 0.875rem;
+    color: #6a737d;
+}
+
+.post-date {
+    font-weight: 500;
+}
+
+.post-category {
+    background-color: #f1f8ff;
+    color: #0366d6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.post-cve {
+    background-color: #fff5b4;
+    color: #735c0f;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.severity-critical {
+    background-color: #ffeef0;
+    color: #d73a49;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.severity-high {
+    background-color: #fff5b4;
+    color: #b08800;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.severity-medium {
+    background-color: #f0f6ff;
+    color: #0366d6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.post-excerpt {
+    margin: 1rem 0;
+    color: #586069;
+    line-height: 1.5;
+}
+
+.read-more {
+    color: #0366d6;
+    font-weight: 500;
+}
+
+/* Post single */
+.post {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-header {
+    border-bottom: 1px solid #e1e4e8;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.post-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    color: #24292e;
+}
+
+.post-content {
+    line-height: 1.7;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 1.5rem 0;
+}
+
+.post-content pre {
+    background-color: #f6f8fa;
+    border-radius: 6px;
+    padding: 1rem;
+    overflow-x: auto;
+    margin: 1.5rem 0;
+    border: 1px solid #e1e4e8;
+}
+
+.post-content code {
+    background-color: #f6f8fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.875rem;
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+.post-content pre code {
+    background-color: transparent;
+    padding: 0;
+}
+
+.post-content blockquote {
+    border-left: 4px solid #dfe2e5;
+    padding-left: 1rem;
+    margin: 1.5rem 0;
+    color: #6a737d;
+}
+
+.post-tags {
+    margin: 2rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid #e1e4e8;
+}
+
+.post-tags h4 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    color: #586069;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #f1f8ff;
+    color: #0366d6;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.75rem;
+    margin: 0.25rem 0.5rem 0.25rem 0;
+}
+
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 0;
+    padding-top: 2rem;
+    border-top: 1px solid #e1e4e8;
+}
+
+.prev-post, .next-post {
+    flex: 1;
+    padding: 1rem;
+    background-color: #f6f8fa;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #24292e;
+    font-weight: 500;
+}
+
+.prev-post {
+    margin-right: 1rem;
+}
+
+.next-post {
+    margin-left: 1rem;
+    text-align: right;
+}
+
+.prev-post:hover, .next-post:hover {
+    background-color: #e1e8ed;
+    text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+    background-color: #f6f8fa;
+    border-top: 1px solid #e1e4e8;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #586069;
+    font-size: 0.875rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: #586069;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #24292e;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .main-nav {
+        gap: 1rem;
+    }
+    
+    .post-title {
+        font-size: 2rem;
+    }
+    
+    .post-meta {
+        flex-wrap: wrap;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .post-navigation {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .prev-post, .next-post {
+        margin: 0;
+        text-align: center;
+    }
+} 

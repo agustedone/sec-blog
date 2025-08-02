@@ -1,0 +1,118 @@
+---
+layout: default
+title: "Acerca de SecBlog"
+permalink: /about/
+---
+
+# Acerca de SecBlog
+
+SecBlog es una plataforma dedicada a la investigación y divulgación responsable de vulnerabilidades en ciberseguridad. Nuestro objetivo es contribuir a la mejora de la seguridad en el ecosistema digital mediante análisis técnicos detallados, informes de calidad y divulgación ética.
+
+## Nuestra Misión
+
+- **Investigación rigurosa**: Realizamos análisis profundos de vulnerabilidades y amenazas emergentes
+- **Divulgación responsable**: Seguimos protocolos éticos para la divulgación de vulnerabilidades
+- **Educación**: Compartimos conocimiento para fortalecer la comunidad de seguridad
+- **Innovación**: Desarrollamos herramientas y técnicas para mejorar la seguridad informática
+
+## Áreas de Especialización
+
+### Análisis de Vulnerabilidades
+- Ingeniería inversa de aplicaciones
+- Análisis de binarios y malware
+- Investigación de 0-days
+- Desarrollo de exploits con fines educativos
+
+### Seguridad Web
+- Auditorías de aplicaciones web
+- Análisis de frameworks y CMS
+- Investigación de vulnerabilidades OWASP Top 10
+- Técnicas de bypass de protecciones
+
+### Forense Digital
+- Análisis de incidentes de seguridad
+- Investigación de malware avanzado
+- Técnicas de memory forensics
+- Análisis de tráfico de red
+
+### IoT y Sistemas Embebidos
+- Análisis de firmware
+- Seguridad en protocolos IoT
+- Hardware hacking
+- Ingeniería inversa de dispositivos
+
+## Metodología
+
+### Investigación Ética
+Seguimos estrictos principios éticos en nuestra investigación:
+
+1. **No-harm principle**: Nunca causamos daño a sistemas en producción
+2. **Divulgación responsable**: Notificamos a los vendors antes de la publicación
+3. **Uso educativo**: Nuestros hallazgos tienen propósito educativo y de mejora
+4. **Cumplimiento legal**: Respetamos todas las leyes y regulaciones aplicables
+
+### Proceso de Divulgación
+
+```
+[Descubrimiento] → [Verificación] → [Notificación al Vendor] → [Colaboración] → [Parche] → [Divulgación Pública]
+     Day 0           Day 1-3         Day 5-7              Day 8-90      Day 90     Day 90+
+```
+
+## Equipo
+
+Nuestro equipo está compuesto por investigadores de seguridad con experiencia en:
+
+- **Análisis de malware**  
+- **Pentesting avanzado**  
+- **Ingeniería inversa**  
+- **Forense digital**  
+- **Desarrollo seguro**  
+
+## Herramientas y Tecnologías
+
+Utilizamos un amplio arsenal de herramientas especializadas:
+
+**Análisis Estático:**
+- IDA Pro, Ghidra, Radare2
+- YARA, PEiD, Detect It Easy
+- Strings, Binwalk, Hex editors
+
+**Análisis Dinámico:**
+- Debuggers (GDB, WinDbg, x64dbg)
+- Sandboxes (Cuckoo, ANY.RUN)
+- Virtual machines (VMware, QEMU)
+
+**Desarrollo:**
+- Python, C/C++, Assembly
+- Scripting (PowerShell, Bash)
+- Web technologies (JavaScript, PHP)
+
+## Colaboraciones
+
+Colaboramos activamente con:
+
+- **Vendors de software** para mejorar la seguridad de sus productos
+- **Comunidad de seguridad** compartiendo hallazgos y técnicas
+- **Instituciones académicas** en proyectos de investigación
+- **Organismos gubernamentales** en iniciativas de ciberseguridad
+
+## Contacto
+
+### Divulgación de Vulnerabilidades
+Para reportar vulnerabilidades o colaborar en investigaciones:
+
+- **Email**: security@secblog.com
+- **PGP Key**: [Descargar clave pública](/assets/pgp-key.asc)
+
+### Contacto General
+- **Email**: info@secblog.com
+- **Twitter**: [@secblog](https://twitter.com/secblog)
+- **GitHub**: [github.com/secblog](https://github.com/secblog)
+
+### Política de Divulgación Responsable
+
+Respetamos y seguimos un proceso de divulgación responsable de 90 días. Si descubres una vulnerabilidad en nuestros sistemas o quieres colaborar en una investigación, por favor contacta con nosotros usando nuestros canales seguros.
+
+---
+
+*SecBlog se compromete a contribuir positivamente a la seguridad digital global mediante investigación ética, divulgación responsable y educación continua.* 
