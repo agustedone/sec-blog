@@ -3,7 +3,7 @@ title: "Black Offset"
 description: ""
 author: "Security Research Team"
 url: "https://agustedone.github.io"
-baseurl: "/blog"
+baseurl: "/sec-blog"
 
 # Configuración de Jekyll
 markdown: kramdown
