@@ -27,7 +27,7 @@
                     <a href="{{ '/' | relative_url }}">Home</a>
                     <a href="{{ '/posts/' | relative_url }}">Posts</a>
                     <a href="{{ '/advisories/' | relative_url }}">Advisories</a>
-                    <a href="{{ '/about/' | relative_url }}">About</a>
+                    <a href="{{ '/about/' | relative_url }}">Acerca de</a>
                 </nav>
             </div>
         </div>
