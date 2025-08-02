@@ -4,9 +4,9 @@ title: "Todos los Posts"
 permalink: /posts/
 ---
 
-# Todos los Posts
+# All Posts
 
-Explora nuestro archivo completo de artículos sobre ciberseguridad, organizados cronológicamente.
+Explore our complete archive of cybersecurity articles, organized chronologically.
 
 <div class="posts-archive">
 {% for post in site.posts %}
@@ -34,6 +34,6 @@ Explora nuestro archivo completo de artículos sobre ciberseguridad, organizados
 
 {% if site.posts.size == 0 %}
 <div class="no-posts">
-  <p>Aún no hay posts publicados. ¡Vuelve pronto para ver nuestro contenido!</p>
+  <p>No posts published yet, check back soon to see our content!</p>
 </div>
 {% endif %} 

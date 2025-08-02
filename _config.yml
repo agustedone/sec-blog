@@ -1,9 +1,9 @@
 # Configuración del sitio web
-title: "SecBlog"
-description: "Blog de investigación en ciberseguridad - Análisis de vulnerabilidades, informes técnicos y investigación de seguridad"
+title: "Black Offset"
+description: ""
 author: "Security Research Team"
 url: "https://agustedone.github.io"
-baseurl: "/sec-blog"
+baseurl: "/blog"
 
 # Configuración de Jekyll
 markdown: kramdown
