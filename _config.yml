@@ -2,7 +2,7 @@
 title: "SecBlog"
 description: "Blog de investigación en ciberseguridad - Análisis de vulnerabilidades, informes técnicos y investigación de seguridad"
 author: "Security Research Team"
-url: "https://your-username.github.io"
+url: "https://agustedone.github.io"
 baseurl: "/sec-blog"
 
 # Configuración de Jekyll
@@ -32,7 +32,7 @@ collections:
     permalink: /advisories/:name/
 
 # Configuración social (opcional)
-github_username: your-username
+github_username: agustedone
 twitter_username: your-twitter
 
 # Configuración de tema
